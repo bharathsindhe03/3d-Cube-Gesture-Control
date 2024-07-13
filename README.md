@@ -21,7 +21,7 @@ This project showcases a 3D cube that can be rotated and scaled using hand gestu
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/3d-cube-rotation.git
+    git clone https://github.com/bharathsindhe03/3d-Cube-Gesture-Control.git
     cd 3d-cube-rotation
     ```
 
