@@ -168,6 +168,8 @@ with mp_hands.Hands(
                     angle_z -= 0.1  
                 elif finger_status == [1, 1, 1, 1, 1]:
                     scale += 0.1  
+                    if scale >= 2.0:
+                        scale = 2
                 elif finger_status == [0, 0, 0, 0, 0]:
                     scale -= 0.1  
                     if scale <= 0.1:
