@@ -196,10 +196,6 @@ with mp_hands.Hands(
         # Update the Pygame display
         pygame.display.flip()
         clock.tick(60)  
-        
-        # Break the loop if 'q' key is pressed
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
 
 pygame.quit()
 cap.release()
